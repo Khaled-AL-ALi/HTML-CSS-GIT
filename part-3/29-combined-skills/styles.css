@@ -1,1 +1,18 @@
 /* Add your own CSS code below */
+.sp{color: #c85308;}
+@media screen and (min-width: 992px) {.hero__title{font-size: 56px;}}
+.main-nav__list{
+display: flex;
+justify-content: space-around;
+}
+
+@media screen and (min-width: 767px) {
+.site-header{display: flex;
+justify-content: space-between;}
+.views{display: flex;align-items: baseline;flex-direction: row;justify-content: space-between;}
+.view-list__item{margin-left: 10px;}
+.f1{display: flex;align-items: baseline;}
+}
+.main-article > p{max-width: 50em;line-height: 25px;align-self: center;}
+.main-article > h1 {align-self: center;}
+.main-article{display: flex;flex-direction: column;}
